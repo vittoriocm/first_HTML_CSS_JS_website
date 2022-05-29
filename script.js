@@ -20,6 +20,7 @@ let endPartyButton = document.querySelector('.end');
 endPartyButton.onclick = function() {
     document.querySelector(".ice-cream-img").src = 'ice-cream-stop.gif';
     document.body.style.backgroundColor = 'darkgrey';
+    document.body.style.color = 'black';
     clearInterval(interval);
     document.querySelector(".start").disabled = 0;
     document.querySelector(".end").disabled = 1;
